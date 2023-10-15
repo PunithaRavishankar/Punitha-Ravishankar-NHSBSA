@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="162.334">
+    <testcase classname="Get Help with paying for NHS costs online service." name="Check what help you could get to pay for NHS costs by selecting Country as England" time="40.12">
+        <system-out><![CDATA[Given navigating to NHS Costs Checker tool..................................passed
+When user accepts or declines the cookies if flag is selected as [accept_cookies: "Y"].passed
+When clicking on Start Now to access the Link...............................passed
+When I am a citizen of the UK by selecting country as England...............passed
+When Select GP practice in Scotland or Wales? Yes...........................passed
+When Select country dental practice in? England.............................passed
+When Enter date of birth in Day DD : "28"...................................passed
+When Enter date of birth in  Month MM :"12".................................passed
+When Enter date of birth in  Year YYYY :"1989"..............................passed
+When Select live with a partner as Yes......................................passed
+When Select you or your partner claim any benefits or tax credits? as Yes...passed
+When Select you or your partner get paid Universal Credit? as Yes, we receive Universal Credit payments.passed
+When Select As part of your joint Universal Credit, do you have any of these? As Yes.passed
+When Select Did you and your partner have a combined take-home pay of £935 or less in your last Universal Credit period? As Yes.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Get Help with paying for NHS costs online service." name="Check what help you could get to pay for NHS costs by selecting Country as Scotland" time="85.681">
+        <system-out><![CDATA[Given navigating to NHS Costs Checker tool..................................passed
+When user accepts or declines the cookies if flag is selected as [accept_cookies: "Y"].passed
+When clicking on Start Now to access the Link...............................passed
+When I am a citizen of the UK by selecting country as Scotland..............passed
+When Select do you live in the Highlands and Islands? as Yes................passed
+When Select country dental practice in? as I am not registered with a dental practice.passed
+When Enter date of birth in Day DD : "17"...................................passed
+When Enter date of birth in  Month MM :"06".................................passed
+When Enter date of birth in  Year YYYY :"1994"..............................passed
+When Select live with a partner as No.......................................passed
+When Select you or your partner claim any benefits or tax credits? as No....passed
+When Select are you pregnant or have you given birth in the last 12 months as No.passed
+When Select do you have an injury or illness caused by serving in the armed forces? as No.passed
+When Select do you live permanently in a care home? as No...................passed
+When Select do you and your partner have more than £16,000 in savings, investments or property? No.passed
+Then Click on Back Button to change you and your partner have more than £16,000 in savings, investments or property? Yes from No.passed
+Then Going back to Select country dental practice in? Change Scotland to as I am not registered with a dental practice.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Get Help with paying for NHS costs online service." name="Check what help you could get to pay for NHS costs by selecting Country as Northern Ireland" time="9.445">
+        <system-out><![CDATA[Given navigating to NHS Costs Checker tool..................................passed
+When user accepts or declines the cookies if flag is selected as [accept_cookies: "Y"].passed
+When clicking on Start Now to access the Link...............................passed
+Then I am a citizen of the UK by selecting country as Northern Ireland......passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Get Help with paying for NHS costs online service." name="Accessing the link in Date of Birth Page" time="17.412">
+        <system-out><![CDATA[Given navigating to NHS Costs Checker tool..................................passed
+When clicking on Start Now to access the Link...............................passed
+When I am a citizen of the UK by selecting country as Wales.................passed
+When Is your GP practice in Scotland or Wales? As No........................passed
+When Select country dental practice in? as Wales............................passed
+Then Click on the Why we ask for your date of birth link....................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Get Help with paying for NHS costs online service." name="Clicking Next without Selecting any Radio Button" time="9.318">
+        <system-out><![CDATA[Given navigating to NHS Costs Checker tool..................................passed
+When clicking on Start Now to access the Link...............................passed
+When I am a citizen of the UK by selecting country as Scotland..............passed
+Then Select do you live in the Highlands and Islands? as Blank..............passed
+]]></system-out>
+    </testcase>
+</testsuite>
