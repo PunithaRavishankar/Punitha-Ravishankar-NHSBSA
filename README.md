@@ -1,7 +1,11 @@
 # Punitha-Ravishankar-NHSBSA
 
-Executable runner class path
-com.NHScostsonlineservice/src/test/java/cucumberRunner
+**Please find the below steps to exceute the scenarios:**
 
-Cucumber html report path
+**Executable runner class path**
+com.NHScostsonlineservice/src/test/java/cucumberRunner
+**Runner class can be exectued from above path**
+
+**Cucumber html report path**
 com.NHScostsonlineservice/target/CucumberTestReports/HTMLReport.html
+**Post Execution screenshots can be referred in below path**
